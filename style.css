@@ -39,7 +39,7 @@ html {
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  
+
   form button:hover {
     background: #ff6f47;
     color: white;
@@ -144,3 +144,19 @@ html {
     transform: scale(1.5);
   }
   */
+
+  @media only screen and (max-width: 768px) {
+    form {
+      flex-wrap: wrap;
+    position: relative;
+    }
+    form button {
+      position: absolute;
+      top: 3px;
+      right: 10px;
+    }
+
+    .todo-list {
+    min-width: 80%;
+    }
+  }
