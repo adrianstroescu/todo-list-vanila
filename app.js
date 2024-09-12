@@ -4,10 +4,6 @@ const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector(".filter-todo");
 
-
-
-
-
 // Event Listeners
 todoButton.addEventListener('click', (event) => addTodo(event));
 todoList.addEventListener('click', (event) => deleteCheck(event));
